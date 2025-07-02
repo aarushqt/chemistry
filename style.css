@@ -1,0 +1,55 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212;
+  color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  color: #00c6ff;
+}
+
+.chapter-list {
+  list-style: none;
+}
+
+.chapter-list li {
+  margin: 15px 0;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: #f5f5f5;
+  background: #1e1e1e;
+  padding: 12px 25px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.chapter-list a:hover {
+  background: #00c6ff;
+  color: #121212;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,198,255,0.5);
+}
